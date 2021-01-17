@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #e9e9e9;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a{
+  color: rgb(0, 67, 192);
+  font-weight: 600;
+}
+.card{
+  background-color: #cdcdcd;
+  color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+.card button{
+  border:1px solid red ;
+  color: red;
+}
+
+.box{
+  border:solid black;
+  border-radius: 5px;
+  padding:15px;
+  background-color:rgba(87, 92, 160, 0.383)
+}
+
+div h2 {
+  color: darkgoldenrod;
 }
